@@ -1,0 +1,32 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+table{
+	border-collapse: collapse;
+	width: 70%;
+	font-family: sans-serif;
+	margin: auto;
+}
+.font-bold{
+	font-weight: bolder;
+}
+td, th{
+   border: 1px solid #dddddd;
+   text-align: left;
+   padding: 8px;
+}
+
+tr:nth-child(3n-2){
+	background: lightgray;
+	
+}
+tr:nth-child(3n-1){
+	background: rgb(247, 245, 245);
+	
+}
+tr:nth-child(3n){
+	background: rgb(226, 167, 218);
+	
+}
+
